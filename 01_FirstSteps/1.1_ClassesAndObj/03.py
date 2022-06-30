@@ -9,3 +9,15 @@ comments: 12
 Имена переменных (атрибутов класса) используйте такие же (pk, title, author, views и comments) с соответствующими значениями.
 """
 
+
+class DataBase:
+    pk = 1
+    title = "Классы и объекты"
+    author = "Сергей Балакирев"
+    views = 14356
+    comments = 12
+
+
+a = DataBase
+print(a.pk, a.title, a.author, a.views, a.comments)
+
